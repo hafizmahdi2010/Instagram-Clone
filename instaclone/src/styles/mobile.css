@@ -1,0 +1,38 @@
+@media (max-width: 700px){
+  .header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header .searchBox{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   font-size: 17px; 
+   visibility: hidden;
+  }
+  .header .searchBox.active{
+    visibility: visible;
+  }
+
+  .header .menuIcons{
+    position: absolute;
+    width: 70px;
+    transition: .3s;
+    transform: translateX(-100vw);
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+    font-size: 25px;
+    justify-content: start;
+    padding-top: 30px;
+    height: 100vh;
+    background-color: #f1eeee;
+    left: 0;
+    top: 0;
+  }
+  .header .menuIcons.active{
+    transform: translateX(0vw);
+  }
+}

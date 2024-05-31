@@ -1,0 +1,7 @@
+@media (max-width: 1099px){
+  .header{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
